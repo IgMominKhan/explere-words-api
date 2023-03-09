@@ -1,0 +1,62 @@
+
+.container {
+    width:min(85%,35rem);
+    margin-inline:auto;
+}
+
+p {
+    margin-top:0;
+}
+
+header {
+text-align:center;
+margin-block:5rem 2.6125rem;
+background-color: #eff0f0;
+padding-block:2rem
+}
+
+header input, .btn{
+    font-size:1.125rem;
+    padding:.5rem 1rem;
+    background-color: azure;
+    border:none;
+    outline:none;
+}
+
+.btn {
+    cursor: pointer;
+    background-color:rgb(11, 138, 223);
+    color:white;
+    font-weight:bold;
+}
+
+.split {
+    display:flex;
+    justify-content: space-between;
+}
+
+.align-center {
+    display:flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.align-center > .hr {
+    flex:1;
+    margin-top:1rem;
+    border-top: 1px solid 
+    #ccc;
+}
+
+.word > :has(p,h1) {
+    margin:0;
+}
+
+.play-icon {
+    width:3.5rem;
+    height:3.5rem;
+    background-color: lightpink;
+    text-align: center;
+    line-height: 3.5rem;
+    border-radius: 50%;
+}
